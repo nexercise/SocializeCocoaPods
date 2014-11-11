@@ -8,4 +8,6 @@ Pod::Spec.new do |s|
   s.source        = { :git => 'https://github.com/socialize/JSONKit.git', :tag => "v#{s.version}" }
   s.source_files  = '**/*.{h,m,c}'
   s.xcconfig      = { 'CLANG_WARN_DIRECT_OBJC_ISA_USAGE' => 'NO' }
+  s.requires_arc  = false
+  s.compiler_flags = '-fno-objc-arc'
 end
