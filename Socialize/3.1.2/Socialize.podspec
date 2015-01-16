@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.documentation_url = 'http://socialize.github.io/socialize-sdk-ios/'
   s.license           = { :type => 'MIT', :file => 'LICENSE' }
   s.author            = { "David Jedeikin" => "djedeikin@sharethis.com" }
-  s.source            = { :git => "https://github.com/socialize/socialize-sdk-ios.git", :tag => "3.1.2" }
+  s.source            = { :git => "https://github.com/wdn/socialize-sdk-ios.git", :tag => s.version.to_s }
   s.dependency        'Loopy'
   s.dependency        'Facebook-iOS-SDK'
   s.dependency        'SZOAuthConsumer'
